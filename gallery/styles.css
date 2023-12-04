@@ -1,0 +1,53 @@
+body {
+  background: #111;
+}
+img {
+  width: 100%;
+  transition: 0.5s all;
+}
+img:hover{
+  transform: scale(1.05,1.05);
+  transition: 0.5s all;
+}
+.photo-grid-container {
+  column-count: 4;
+  column-width: 300px;
+}
+.photo-grid-item {
+  margin: 0 auto 15px;
+  max-width: 500px;
+  width: 100%;
+}
+.header{
+  display: block;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: rgba(17, 17, 17, 0.4);
+  z-index: 2;
+  height: 58px;
+  line-height: 58px;
+  margin: 20px 0;
+}
+.title{
+  text-align: center;
+  color: aliceblue;
+  font-size: large;
+}
+.poem-container{
+  margin: 0 10%;
+  width: 80%;
+}
+.poem-item{
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 5px 10px;
+  margin: 10px 0;
+  font-style: italic;
+  color: aliceblue;
+  transition: 0.5s all;
+}
+.poem-item:hover{
+  transform: scale(1.05,1.05);
+  transition: 0.5s all;
+}
+

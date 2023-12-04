@@ -1,0 +1,132 @@
+<!-- 
+  今野研の冬合宿で使われる架空の企業、株式会社魂技術の新卒採用Webサイトです
+
+  作成:2022.12
+  企業ポエム:今野将
+  画像加工・提供/デザイン素案:12期 大澤正基
+  コーディング:13期 山之内七穂
+ -->
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/recruit_style.css">
+    <script src="./script.js"></script>
+    <link rel="icon" href="./image/favicon2.png">
+    <title>KONTEC 新卒採用</title>
+  </head>
+  <body>
+    <!-- ページヘッダー　ついてくる -->
+    <header class="global-header">
+      <div class="gheader-logo">
+        <a href="./recruit.html">
+          <img src="./image/logo_graduation.webp" alt="KONTEC">
+        </a>
+      </div>
+      <ul class="gheader-navigation">
+          <li><a href="#aboutcompany">会社について知る</a></li>
+          <li><a href="#interview">先輩たちのこえ</a></li>
+          <li><a href="#jobwork">職種一覧</a></li>
+          <li><a href="#jobwork">働く環境</a></li>
+          <li><a href="#recruit">採用情報</a></li>
+      </ul>
+    </header>
+      <main>
+        <a name="aboutcompany"></a>
+        <div class="mainImage-area">
+            <img class="top-image" src="./image/topimage_spring.webp">
+            <img class="top-image" src="./image/topimage_summer.webp">
+            <img class="top-image" src="./image/topimage_fall.webp">
+            <img class="top-image" src="./image/topimage_winter.webp">
+        </div>
+        <!-- 企業ポエム -->
+        <div class="main-poem">
+          <div class="poem-block">
+            <p>一人ひとりの想いは小さい水滴のようなものでも</p>
+            <p>その価値を見失わず</p>
+            <p>まだ見ぬミライのために想いを寄せ合い価値を高める</p>
+            <p>そんな関係でありたい</p>
+          </div>
+          <div class="poem-block">
+            <p>私たちコンテックは</p>
+            <p>一つ一つの技術に魂を込めて未来を築いていく</p>
+            <p>そんなモノづくりのために邁進する技術者集団です</p>
+          </div>
+        </div>
+
+        <!-- 先輩たちの声 -->
+        <section class="contents content-interview">
+            <a name="interview"></a>
+            <p class="content-title">先輩たちのこえ</p>
+            <ul class="interview-list">
+              <li class="item">
+                  <img src="./image/upperclassman3.webp">
+                  <p class="comment">
+                    <span>先輩や同期と切磋琢磨して</span>
+                    <span>成長を実感できる</span>
+                  </p>
+                  <p class="job">機械設計</p>
+              </li>
+              <li class="item">
+                  <img src="./image/upperclassman2.webp">
+                  <p class="comment">
+                    <span>この仕事ならではの体験を</span>
+                    <span>積み上げていく</span>
+                  </p>
+                  <p class="job">ケミカルエンジニア</p>
+              </li>
+              <li class="item">
+                  <img src="./image/upperclassman1.webp">
+                  <p class="comment">
+                    <span>企画から導入提案、開発まで</span>
+                    <span>幅広く携わる面白さ</span>
+                  </p>
+                  <p class="job">ソフトウェア開発</p>
+              </li>
+            </ul>
+        </section>
+
+        <!-- 職種一覧と働く環境 -->
+        <a name="jobwork"></a>
+        <section class="contents content-jobwork">
+          <div class="job-area content-area">
+            <p class="title">職種一覧</p>
+            <div class="content">
+              <p class="subtitle">エンジニアリングソリューション事業</p>
+              <p class="text">現場業務で培ってきた経験・ノウハウをもとに、お客様の課題に対応するコンテックの職種を紹介します</p>
+            </div>
+            <a class="link" href="./pdf/joblist.pdf" target="_blank">職種一覧 ></a>
+          </div>
+          <div class="work-area content-area">
+            <p class="title">働く環境</p>
+            <div class="content">
+              <p class="text">エンジニアがプロフェッショナルとしての価値を高め続けられるよう、独自の研修制度に力を入れています。また、安心して働き続けられるように、各種制度を整えています。</p>
+            </div>
+            <a class="link">研修制度 ></a>
+            <a class="link">福利厚生 ></a>
+          </div>
+        </section>
+        
+        <!-- 採用情報コンテンツ -->
+        <section class="contents content-recruit">
+          <a name="recruit"></a>
+          <p class="content-title">採用情報</p>
+          <ul class="recruit-list">
+              <li class="item">
+                <a href="./pdf/recruit.pdf" target="_blank">求人票</a>
+              </li>
+              <li class="item">
+                <a href="./pdf/株式会社コンテック会社説明会資料.pdf" target="_blank">会社説明</a>
+              </li>
+              <li class="item">
+                <a href="./pdf/requirements.pdf" target="_blank">募集要項</a>
+              </li>
+          </ul>
+        </section>
+      </main>
+      <footer>
+        <!-- 先生と先輩のギャラリーへのリンク -->
+        <a href="./gallery/index.html" target="_blank"><small>&copy;2022 KONTEC</small></a>
+      </footer>
+  </body>
+</html>
