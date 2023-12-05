@@ -92,6 +92,7 @@
 /* main image */
     .main-image {
         position: relative;
+        z-index: 2;
     }
     .main-image::after {
         position: absolute;
@@ -100,6 +101,7 @@
         height: 100%;
         content: "";
         box-shadow: inset 0 0 10px 10px white;
+        z-index: 4;
     }
     .top-image {
         display: block;
@@ -257,14 +259,14 @@
         margin-bottom: 100px;
         overflow: hidden;
     }
-    .content-interview::after {
+    .content-interview::before {
         position: absolute;
         top: 0;
         width: 100%;
         height: 100%;
         content: "";
         background: rgba(0,0,0,0.27);
-        z-index: 1;
+        z-index: 4;
     }
     .content-interview .text-area {
         position: absolute;
@@ -272,7 +274,7 @@
         left: 50%;
         width: 46%;
         margin-top: 150px;
-        z-index: 2;
+        z-index: 5;
     }
     .content-interview .main-message {
         width: 91%;
