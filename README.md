@@ -1,3 +1,5 @@
+https://aais-lab.github.io/kontec/
+
 # kontec top
 今野研の冬合宿で使われる架空の企業、株式会社魂技術のWebサイトです
 * version 1.0
