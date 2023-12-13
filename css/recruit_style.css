@@ -20,7 +20,7 @@
         width: 100vw;
     }
     body{
-        min-width: 1150px;
+        min-width: 1177px;
         max-width: 1500px;
         padding: 0;
         margin: auto 0px;
@@ -45,6 +45,7 @@
         top: 0;
         width: 100%;
         height: 86px;
+        min-width: 1177px;
         max-width: 1500px;
         gap: 10%;
         background: white;
@@ -57,14 +58,14 @@
         height: 100%;
         list-style: none;
         font-size: 1rem;
-        li {
+        & li {
             display: table-cell;
             width: 20%;
             min-width: 80px;
             height: 100%;
             text-align: center;
             line-height: 86px;
-            a {
+            & a {
                 display: inline-block;
                 width: 100%;
                 height: 100%;
@@ -116,7 +117,7 @@
         position: relative;
         margin-bottom: 40px;
         z-index: 1;
-        p {
+        & p {
             margin: 5px 0;
             font-size: 32px;
         }
@@ -142,7 +143,7 @@
         justify-content: center;
         gap: 50px;
         list-style: none;
-        .item {
+        & .item {
             height: 370px;
             padding: 7px;
             box-shadow: 0 0 10px 4px var(--shadow-color);
@@ -151,19 +152,19 @@
                 transform: scale(1.05,1.05);
                 transition: 0.5s all;
             }
-            img {
+            & img {
                 display: block;
                 height: 200px;
                 width: 350px;
                 margin-bottom: 30px;
                 object-fit: cover;
             }
-            .comment {
+            & .comment {
                 width: 250px;
                 margin: 10px auto;
                 font-size: 19px;
             }
-            .job {
+            & .job {
                 margin: 20px auto;
                 font-size: 25px;
                 color: var(--main-color);
@@ -186,11 +187,11 @@
         padding: 50px 0;
         border-radius: 300px;
         background-color: var(--background-lightblue-opacity);
-        .title {
+        & .title {
             margin: 20px 0;
             font-size: 35px;
         }
-        .link{
+        & .link{
             display: inline-block;
             padding: 5px 20px;
             margin: 0 10px;
@@ -204,16 +205,16 @@
                 transition: 0.5s all;
             }
         }
-        .content {
+        & .content {
             height: 180px;
         }
     }
     .content{
-        .subtitle {
+        & .subtitle {
             font-size: 20px;
             margin-bottom: 20px;
         }
-        .text {
+        & .text {
             display: inline-block;
             width: 350px;
             margin-bottom: 50px;
@@ -232,7 +233,7 @@
         padding: 0 20%;
         border-collapse: separate;
         border-spacing: 30px 0;
-        .item {
+        & .item {
             display: table-cell;
             width: 20%;
             font-size: 25px;
